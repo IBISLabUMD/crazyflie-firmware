@@ -188,6 +188,8 @@ PROJ_OBJ_CF2 += outlierFilter.o
 PROJ_OBJ_CF2 += flowdeck_v1v2.o
 PROJ_OBJ_CF2 += oa.o
 PROJ_OBJ_CF2 += multiranger.o
+#IBIS LAB ADDED
+PROJ_OBJ_CF2 += gas.o
 
 ifeq ($(LPS_TDOA_ENABLE), 1)
 CFLAGS += -DLPS_TDOA_ENABLE
